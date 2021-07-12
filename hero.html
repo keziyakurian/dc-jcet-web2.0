@@ -1,5 +1,5 @@
 
-           
+
 
 <!DOCTYPE html>
 <html lang="en" >
@@ -16,156 +16,28 @@
       <div class="scroll_1">
        <h1 class = "heading1"> A long time ago in a galaxy far,
         <br>
-        far away..!!</h1>
+        far away....</h1>
+        <h1 class="heading-2"> there exist a bunch of people under the community called Developers'club.</h1>
+        <h1 class="heading-3">Just a part of the leftover gas nebula that created Sun further creating earth. Who go an extra mile about technology & development.
+        </h1>
       </div>
-      <div class  ="scroll_2">
-       there exist a bunch of people under the community called Developers'club.</div> 
-      <!-- <div class ="scroll_3">
-      Just a part of the leftover gas nebula that created Sun further creating earth. Who go an extra mile about technology & development.
-      </div>  -->
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js">
-</script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script> 
   <script src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"></script> 
-
-     <script>
-
-      gsap.registerPlugin(ScrollTrigger);
-
-                      
-                var gsapAnim = gsap.timeline();
-                gsapAnim.from('.heading1',{
-                    scaleX:0,
-                    scaleY:0               
-                })
-                gsapAnim.to('.heading1' ,{
-                    scaleX:2,
-                    scaleY:2,
-                    duration:2               
-                });
-           
-               
-                var sca= gsap.timeline(
-                 {
-                    scrollTrigger: {
-                          trigger: ".main", 
-                          start: "top top",
-                          end: "+=100%",
-                          markers:true,
-                          scrub:true,
-                          pin:true
-                        }                   
-                  });
-                    sca.from('.heading1',{
-                    scaleX:2,
-                    scaleY:2,   
-                    opacity:0,
-                    duration:2
-                    });
-                    sca.to('.heading1',{
-                     scaleX:5,
-                     scaleY:5,    
-                    opacity:1,
-                    duration:2
-                  });
-
-
-
-            //       var sca1= gsap.timeline({    
-            //      scrollTrigger: {
-            //            trigger: ".scroll_2", 
-            //            start: "100 200",
-            //            end: "bottom bottom",
-            //            markers:true,
-            //            scrub:true
-            //          }                   
-            //    });
-            //      sca1.from('.scroll_2',{
-            //      scaleX:0,
-            //      scaleY:0,    
-            //      opacity:0,
-            //      duration:2
-            //      });
-            //      sca1.to('.scroll_2',{
-            //         scaleX:6,
-            //         scaleY:6,    
-            //         opacity:0,
-            //         duration:2
-            //    });
-
-
-                 
-
-                  
-               
-        // gsap.from(".scroll_3",{
-        //       scrollTrigger: {
-        //            trigger: ".scroll_23", 
-        //           start: "20px 80%",
-        //             end: "bottom 100px",
-        //            toggleActions:"restart pause reverse pause",
-        //             scrub:1
-                
-        //       }, delay:4,
-        //             duration:1,
-        //             opacity:0
-        //     })
-      
-    </script>
-    //  <!-- gsap.registerPlugin(ScrollTrigger);
-
-    
-    // var gsapAnim = gsap.timeline();
-    // gsapAnim.from('.div-animate',{
-    //     y:0
-    // })
-    // gsapAnim.to('.div-animate',{
-    //     y:400
-    // });
-        
-//     var sca = gsap.timeline({
-
-//     scrollTrigger:{
-//         trigger: ".content-1",
-//         start: "center top",
-//         end: "+=100%",
-//         markers:true,
-//         // scrub: true,
-//         // pin:true,
-//     }
-
-//     });
-
-//     sca.from('.div-animate',{
-
-//         x:0,
-//         y:400
-
-
-//     })
-//     sca.to('.div-animate',{
-
-//         x:300,
-//         y:400,
-
-
-//     })
-//     sca.to('.div-animate',{
-
-//         x:300,
-//         y:600,
-
-
-//     });
-//     var sca2 = gsap.timeline({
-//         scrollTrigger:{
-
-
-//         }
-//     })                     
-//     </script>
-// </body>
-// </html> -->
 
 </body>
 </html>
