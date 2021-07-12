@@ -1,0 +1,66 @@
+  var gsapAnim = gsap.timeline();
+    //             gsapAnim.from(".scroll_1",{
+    //                duration:2, 
+    //                y: -40,
+    //                 // scaleX:0,
+    //                 // scaleY:0,
+    //                 // scaleZ:0,
+    //                 opacity:0,
+    //                }  )
+    //             gsapAnim.to(".scroll_1",{
+    //                // duration:1,
+    //                 // scaleX:2,
+    //                 // scaleY:2,
+    //                 opacity:1
+                  
+    //             });
+                    
+    //             var sca = gsap.timeline({
+    //             scrollTrigger: {
+    //                 trigger: ".scroll_1", 
+    //                 start: "top top",
+    //                 end: "top top",
+    //                scrub:true,
+    //                pin:true,
+    //               }
+    //             });
+                
+                
+    //             sca.to('.scroll_1',{
+    //                 duration:Infinity, 
+    //                 opacity:0,
+                   
+    //             });
+                // sca.to(".scroll_1",{
+                //     duration:isFinite,
+                //     scaleX:2,
+                //     scaleY:2,
+                //     opacity:0,
+                  
+                // });
+                 //     var sca1= gsap.timeline({    
+            //      scrollTrigger: {
+            //            trigger: ".scroll_1", 
+            //            start: "top top",
+            //            end: "center bottom",
+            //            markers:true,
+            //            scrub:true
+            //          }                        
+            //         });
+            //      // },    scaleX:3,
+            //      //       scaleY:7,  
+            //      //       duration:2,
+            //      //       y:10,
+            //      //       opacity:0
+            // //    });
+
+            //      sca1.from('.scroll_1',{
+            //      scaleX:0,
+            //      scaleY:0,    
+            //      opacity:0
+            //      })
+            //      sca1.to('.scroll_1',{
+            //     //  scaleX:2,
+            //     //  scaleY:2,    
+            //      opacity:2
+            //    });
