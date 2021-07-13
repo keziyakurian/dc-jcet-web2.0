@@ -80,6 +80,27 @@
           display:'none'
         })
 
+        sca.from('.heading-4',{
+
+          scale:0
+        })
+      
+        sca.to('.heading-4',{
+
+          scale:1
+          
+        })
+      
+      
+        sca.to('.heading-4',{
+
+          scale:20,
+          opacity:1,
+          display:'none'
+        })
+
+        
+
         // canvas animation
         var canvas = document.getElementById('space_box');
 var c = canvas.getContext('2d');
@@ -128,13 +149,13 @@ window.addEventListener('mousemove', function(e){
 // Zoom in/out into the Space on mouse scroll
 canvas.addEventListener('mousewheel', function(e){
    if(e.deltaY < 0){
-     focalLength *= 1.1;
+     focalLength *= 0.5;
    }else{
-     focalLength /= 1.1;
+     focalLength /= 0.5;
    }
    
    if(focalLength >= innerWidth){
-     focalLength = innerWidth - 20;
+     focalLength = innerWidth - 50;
    }else if(focalLength < 100){
      focalLength = 100;
    }
