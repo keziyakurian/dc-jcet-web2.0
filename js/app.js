@@ -1,11 +1,8 @@
 
       gsap.registerPlugin(ScrollTrigger);
-
                       
       // var gsapAnim = gsap.timeline();
       
- 
-     
       var sca= gsap.timeline(
       {
           scrollTrigger: {
