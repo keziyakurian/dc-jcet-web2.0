@@ -1,19 +1,4 @@
-  var gsapAnim = gsap.timeline();
-    //             gsapAnim.from(".scroll_1",{
-    //                duration:2, 
-    //                y: -40,
-    //                 // scaleX:0,
-    //                 // scaleY:0,
-    //                 // scaleZ:0,
-    //                 opacity:0,
-    //                }  )
-    //             gsapAnim.to(".scroll_1",{
-    //                // duration:1,
-    //                 // scaleX:2,
-    //                 // scaleY:2,
-    //                 opacity:1
-                  
-    //             });
+  
                     
     //             var sca = gsap.timeline({
     //             scrollTrigger: {
